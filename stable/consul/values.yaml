@@ -16,7 +16,7 @@ ConsulDnsPort: 8600
 Component: "consul"
 Replicas: 3
 Image: "consul"
-ImageTag: "0.7.2"
+ImageTag: "0.7.4"
 ImagePullPolicy: "Always"
 Cpu: "100m"
 Memory: "256Mi"
@@ -24,7 +24,7 @@ Memory: "256Mi"
 Storage: "1Gi"
 
 ## StorageClass name for use with Persistent Volume Claim (PVC)
-StorageClass: default
+#StorageClass: default
 
 ## Enable Consul Web UI
 ##
