@@ -197,4 +197,4 @@ spec:
       resources:
         requests:
           # upstream recommended max is 700M
-          storage: "{{.Values.Storage}}"
+          storage: {{ .Values.Storage | quote }}
